@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.App{
+    background-color:rgb(233, 233, 237);
+    margin: 15px;
+    font-family: 'Lobster', cursive;
+    
+}
+
+#DataFilterOn{
+    background-color: rgb(180, 195, 195);
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;  
+    justify-content: space-around;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 7px;
+}
+#DataFilterOff{
+    display: none;
+}
+
+#accountDiv{
+    background-color: rgb(224, 234, 254);
+  
+}
+#expensesDiv{
+    background-color: rgb(170, 170, 172);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    padding: 0.5rem;
+    margin: 1rem 0;
+    border-radius: 12px;
+    background-color: rgb(176, 176, 176);
+}
+#expensDiv{
+    background-color: rgb(232, 206, 10);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 7px;
+    margin: 15px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;  
+    padding: 5px;
+    align-items: flex-start;
+}
+#oneExpensDiv{
+   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;  
+    
+}
+ #expensDitelsDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: rgb(4, 39, 58);
+ }
+ #btnDiv{
+    margin-left: 20px;
+    position: sticky;
+   align-self: flex-end;
+ }
+ /* #expensAmountDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 6px;
+ } */
+ #eh3{
+    margin: 7px;
+ }
+ #datefilterdiv{
+    margin: 10px;
+ }
+ #amountFilterDiv{
+    margin-top: 10px;
+    justify-content: space-around;
+    flex-direction: row;  
+ }
+ #sumDiv{
+   margin-left: 350px;
+    
+}
+#addExpens{
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    height: 20px;
+    width: 90px;
+    padding: 5px;
+    border-color: black;
+    background-color: rgb(255, 217, 0);
+    text-decoration: none;
+    text-align: center;
+}
+#addExpens:hover{
+background-color: rgb(241, 207, 104);
+}
+#btn{
+    background-color: rgb(255, 217, 0);
+    border-radius: 3px;
+    border-width: 1px;
+}
+#btn:hover{
+    background-color: rgb(248, 226, 101)
+}
+#footerDiv{
+    margin-top: 30px;
+    background-color: rgb(70, 73, 76);
+    height: 50px;
+    width: 100%;
+    padding: 20px;
+}
+#btn{
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    height: 30px;
+    width: 90px;
+    padding: 5px;
+    border-color: black;
+    background-color: rgb(255, 217, 0);
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+#chartDiv{
+    height: 50%;
+    width: 50%;
+}
